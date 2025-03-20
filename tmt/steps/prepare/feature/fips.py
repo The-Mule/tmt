@@ -25,7 +25,7 @@ class FipsStepData(PrepareFeatureData):
 
 
 @provides_feature('fips')
-class Epel(ToggleableFeature):
+class Fips(ToggleableFeature):
     NAME = "fips"
 
     _data_class = FipsStepData
